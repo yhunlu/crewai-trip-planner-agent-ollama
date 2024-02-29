@@ -1,6 +1,6 @@
 from crewai import Agent
 from textwrap import dedent
-from langchain.llms import Ollama
+from langchain_community.llms import Ollama
 
 from tools.search_tools import SearchTools
 from tools.calculator_tools import CalculatorTools
